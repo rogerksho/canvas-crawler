@@ -1,0 +1,783 @@
+[
+    {
+        "id": 377735,
+        "name": "ECON 101 100 FA 2020",
+        "account_id": 147,
+        "uuid": "JwIc68xGC4jqns7ARSXcfR05CIqjf4XlLvi5dBEZ",
+        "start_at": "2020-08-31T04:00:00Z",
+        "grading_standard_id": null,
+        "is_public": false,
+        "created_at": "2020-03-04T14:04:07Z",
+        "course_code": "ECON 101 100 FA 2020",
+        "default_view": "wiki",
+        "root_account_id": 1,
+        "enrollment_term_id": 170,
+        "license": "private",
+        "grade_passback_setting": null,
+        "end_at": "2020-12-21T05:00:00Z",
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_JwIc68xGC4jqns7ARSXcfR05CIqjf4XlLvi5dBEZ.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            },
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": true,
+        "overridden_course_visibility": ""
+    },
+    {
+        "id": 375756,
+        "name": "EECS 203 018 FA 2020",
+        "account_id": 216,
+        "uuid": "ocKaMT3fTFOloZNJDkkyMSHlX7VD8j0h2zNRZ26H",
+        "start_at": "2020-09-06T20:22:06Z",
+        "grading_standard_id": null,
+        "is_public": null,
+        "created_at": "2020-03-04T14:01:34Z",
+        "course_code": "EECS 203 018 FA 2020",
+        "default_view": "feed",
+        "root_account_id": 1,
+        "enrollment_term_id": 170,
+        "license": null,
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_ocKaMT3fTFOloZNJDkkyMSHlX7VD8j0h2zNRZ26H.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false
+    },
+    {
+        "id": 389192,
+        "name": "EECS 203 FA 2020",
+        "account_id": 216,
+        "uuid": "QxDS94RT08CEaIPN7hb6yo7H5Y4Nr6B5VQXu989J",
+        "start_at": "2020-08-31T04:00:00Z",
+        "grading_standard_id": null,
+        "is_public": null,
+        "created_at": "2020-03-04T14:17:50Z",
+        "course_code": "EECS 203 FA 2020",
+        "default_view": "syllabus",
+        "root_account_id": 1,
+        "enrollment_term_id": 170,
+        "license": null,
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_QxDS94RT08CEaIPN7hb6yo7H5Y4Nr6B5VQXu989J.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false,
+        "overridden_course_visibility": ""
+    },
+    {
+        "id": 285815,
+        "name": "Engineering First Year Orientation",
+        "account_id": 1,
+        "uuid": "yCgZtzu3Udqv8je2pz8oqjDs22WXLytKYV8f88sz",
+        "start_at": "2019-05-22T17:17:00Z",
+        "grading_standard_id": null,
+        "is_public": false,
+        "created_at": "2018-10-04T13:15:02Z",
+        "course_code": "Engineering First Year Orientation",
+        "default_view": "wiki",
+        "root_account_id": 1,
+        "enrollment_term_id": 1,
+        "license": "private",
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_yCgZtzu3Udqv8je2pz8oqjDs22WXLytKYV8f88sz.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false,
+        "overridden_course_visibility": ""
+    },
+    {
+        "id": 322613,
+        "name": "ENGR 100 400 FA 2019",
+        "account_id": 202,
+        "uuid": "Uod7p6j6eSj4r0oXmRmn2z1TwsiXk1YIoXgmX63V",
+        "start_at": "2019-09-03T15:27:00Z",
+        "grading_standard_id": 8085,
+        "is_public": false,
+        "created_at": "2019-03-07T14:23:56Z",
+        "course_code": "ENGR 100 400 FA 2019",
+        "default_view": "syllabus",
+        "root_account_id": 1,
+        "enrollment_term_id": 127,
+        "license": "private",
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": true,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_Uod7p6j6eSj4r0oXmRmn2z1TwsiXk1YIoXgmX63V.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            },
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false,
+        "overridden_course_visibility": ""
+    },
+    {
+        "id": 333265,
+        "name": "ENGR 101 WN 2020",
+        "account_id": 202,
+        "uuid": "CAlpT2NklNbRpJZXAa0DM2kHI0u4OYyTbKjLNhPh",
+        "start_at": "2020-01-08T05:00:00Z",
+        "grading_standard_id": null,
+        "is_public": false,
+        "created_at": "2019-07-12T13:02:11Z",
+        "course_code": "ENGR 101 WN 2020",
+        "default_view": "feed",
+        "root_account_id": 1,
+        "enrollment_term_id": 164,
+        "license": "private",
+        "grade_passback_setting": null,
+        "end_at": "2020-04-21T04:00:00Z",
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": true,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_CAlpT2NklNbRpJZXAa0DM2kHI0u4OYyTbKjLNhPh.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            },
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": true,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false,
+        "overridden_course_visibility": ""
+    },
+    {
+        "id": 319523,
+        "name": "HISTORY 375 001 FA 2019",
+        "account_id": 153,
+        "uuid": "W21XT0ZbllRXCTfOUJoyz1V5P3OfVNYyZhC1rMtd",
+        "start_at": "2019-06-14T14:41:05Z",
+        "grading_standard_id": null,
+        "is_public": null,
+        "created_at": "2019-03-07T14:20:26Z",
+        "course_code": "HISTORY 375 001 FA 2019",
+        "default_view": "feed",
+        "root_account_id": 1,
+        "enrollment_term_id": 127,
+        "license": null,
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_W21XT0ZbllRXCTfOUJoyz1V5P3OfVNYyZhC1rMtd.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false
+    },
+    {
+        "id": 319545,
+        "name": "HISTORY 375 010 FA 2019",
+        "account_id": 153,
+        "uuid": "uOBxSiApIIj89NPkh4YcQzovjUVfhqkwRVTK3b7q",
+        "start_at": "2019-09-19T15:47:47Z",
+        "grading_standard_id": null,
+        "is_public": null,
+        "created_at": "2019-03-07T14:20:27Z",
+        "course_code": "HISTORY 375 010 FA 2019",
+        "default_view": "assignments",
+        "root_account_id": 1,
+        "enrollment_term_id": 127,
+        "license": null,
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_uOBxSiApIIj89NPkh4YcQzovjUVfhqkwRVTK3b7q.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false
+    },
+    {
+        "id": 314239,
+        "name": "MATH 215 FA 2019",
+        "account_id": 160,
+        "uuid": "HdMJ8idJYS3OE8VtRdqOh7cMJVcBWtJ6iOYEaZwM",
+        "start_at": "2019-09-03T05:14:29Z",
+        "grading_standard_id": null,
+        "is_public": null,
+        "created_at": "2019-03-07T14:14:07Z",
+        "course_code": "MATH 215 FA 2019",
+        "default_view": "syllabus",
+        "root_account_id": 1,
+        "enrollment_term_id": 127,
+        "license": null,
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_HdMJ8idJYS3OE8VtRdqOh7cMJVcBWtJ6iOYEaZwM.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false
+    },
+    {
+        "id": 349820,
+        "name": "MATH 216 WN 2020",
+        "account_id": 160,
+        "uuid": "CLXvPjhjQuvOPkUNuLqKJWBqFstsY76zZYHmXuFJ",
+        "start_at": "2020-01-02T15:09:45Z",
+        "grading_standard_id": null,
+        "is_public": null,
+        "created_at": "2019-07-12T13:20:06Z",
+        "course_code": "MATH 216 WN 2020",
+        "default_view": "wiki",
+        "root_account_id": 1,
+        "enrollment_term_id": 164,
+        "license": null,
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_CLXvPjhjQuvOPkUNuLqKJWBqFstsY76zZYHmXuFJ.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            },
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false
+    },
+    {
+        "id": 429142,
+        "name": "ME Manufacturing Labs",
+        "account_id": 2,
+        "uuid": "NCEyhNyO8xR4MvXcNtauMqWaYFKTTsu0IlwANgK4",
+        "start_at": "2020-09-02T17:56:07Z",
+        "grading_standard_id": null,
+        "is_public": false,
+        "created_at": "2020-08-17T13:40:26Z",
+        "course_code": "ME Manufacturing Labs",
+        "default_view": "wiki",
+        "root_account_id": 1,
+        "enrollment_term_id": 1,
+        "license": "private",
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_NCEyhNyO8xR4MvXcNtauMqWaYFKTTsu0IlwANgK4.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false,
+        "overridden_course_visibility": ""
+    },
+    {
+        "id": 348723,
+        "name": "MECHENG 211 001 WN 2020",
+        "account_id": 43,
+        "uuid": "NTZGv1JfNSusIplf9qVaVLNqvyRhLb4nLNAh98EQ",
+        "start_at": "2020-01-01T02:16:00Z",
+        "grading_standard_id": null,
+        "is_public": false,
+        "created_at": "2019-07-12T13:19:09Z",
+        "course_code": "MECHENG 211 001 WN 2020",
+        "default_view": "syllabus",
+        "root_account_id": 1,
+        "enrollment_term_id": 164,
+        "license": "private",
+        "grade_passback_setting": null,
+        "end_at": "2020-05-02T04:00:00Z",
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": true,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_NTZGv1JfNSusIplf9qVaVLNqvyRhLb4nLNAh98EQ.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false,
+        "overridden_course_visibility": ""
+    },
+    {
+        "id": 344763,
+        "name": "MECHENG 211 002 WN 2020",
+        "account_id": 43,
+        "uuid": "Gw2ksQFQVM9TwLhYMFLQkaXKGBPJf4oQmZinuvXg",
+        "start_at": "2019-10-31T17:12:00Z",
+        "grading_standard_id": null,
+        "is_public": false,
+        "created_at": "2019-07-12T13:14:58Z",
+        "course_code": "MECHENG 211 002 WN 2020",
+        "default_view": "feed",
+        "root_account_id": 1,
+        "enrollment_term_id": 164,
+        "license": "private",
+        "grade_passback_setting": null,
+        "end_at": "2020-08-31T04:00:00Z",
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": true,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_Gw2ksQFQVM9TwLhYMFLQkaXKGBPJf4oQmZinuvXg.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "ta",
+                "role": "Participant",
+                "role_id": 86,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false,
+        "overridden_course_visibility": ""
+    },
+    {
+        "id": 354515,
+        "name": "MECHENG 211 010 WN 2020",
+        "account_id": 43,
+        "uuid": "89KCEMhWyBiaMuNNu5H6ArqlVxgH9hlL8OQeeIJm",
+        "start_at": "2019-12-28T23:39:32Z",
+        "grading_standard_id": null,
+        "is_public": null,
+        "created_at": "2019-08-28T01:00:12Z",
+        "course_code": "MECHENG 211 010 WN 2020",
+        "default_view": "feed",
+        "root_account_id": 1,
+        "enrollment_term_id": 164,
+        "license": null,
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_89KCEMhWyBiaMuNNu5H6ArqlVxgH9hlL8OQeeIJm.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false
+    },
+    {
+        "id": 397222,
+        "name": "MECHENG 235 001 FA 2020",
+        "account_id": 43,
+        "uuid": "en90PHOBAIadJHO8dvWCr6WpDLdJvicLllYuWgIq",
+        "start_at": "2020-08-25T19:48:31Z",
+        "grading_standard_id": null,
+        "is_public": null,
+        "created_at": "2020-03-04T14:27:58Z",
+        "course_code": "MECHENG 235 001 FA 2020",
+        "default_view": "wiki",
+        "root_account_id": 1,
+        "enrollment_term_id": 170,
+        "license": null,
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_en90PHOBAIadJHO8dvWCr6WpDLdJvicLllYuWgIq.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false
+    },
+    {
+        "id": 383243,
+        "name": "MECHENG 250 001 FA 2020",
+        "account_id": 43,
+        "uuid": "uwnbBTaJDhh6LMv7jpWfZm5IOLm0tL9DKwd604XE",
+        "start_at": "2020-08-07T22:39:31Z",
+        "grading_standard_id": null,
+        "is_public": null,
+        "created_at": "2020-03-04T14:10:59Z",
+        "course_code": "MECHENG 250 001 FA 2020",
+        "default_view": "wiki",
+        "root_account_id": 1,
+        "enrollment_term_id": 170,
+        "license": null,
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_uwnbBTaJDhh6LMv7jpWfZm5IOLm0tL9DKwd604XE.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            },
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false
+    },
+    {
+        "id": 383250,
+        "name": "MECHENG 250 004 FA 2020",
+        "account_id": 43,
+        "uuid": "sJgntySLODnLv3SVjjDYIww5XkgFJxyGboCIdmEB",
+        "start_at": "2020-09-09T01:16:13Z",
+        "grading_standard_id": null,
+        "is_public": null,
+        "created_at": "2020-03-04T14:10:59Z",
+        "course_code": "MECHENG 250 004 FA 2020",
+        "default_view": "feed",
+        "root_account_id": 1,
+        "enrollment_term_id": 170,
+        "license": null,
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": false,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_sJgntySLODnLv3SVjjDYIww5XkgFJxyGboCIdmEB.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false
+    },
+    {
+        "id": 304658,
+        "access_restricted_by_date": true
+    },
+    {
+        "id": 357263,
+        "name": "PSYCH 111 001 WN 2020",
+        "account_id": 165,
+        "uuid": "uv10PwkjpHsxDjClAjDVqR0dx6LjRrLLi0ikSbtx",
+        "start_at": "2020-01-06T14:53:00Z",
+        "grading_standard_id": null,
+        "is_public": false,
+        "created_at": "2019-09-27T01:00:11Z",
+        "course_code": "PSYCH 111 001 WN 2020",
+        "default_view": "wiki",
+        "root_account_id": 1,
+        "enrollment_term_id": 164,
+        "license": "private",
+        "grade_passback_setting": null,
+        "end_at": null,
+        "public_syllabus": false,
+        "public_syllabus_to_auth": false,
+        "storage_quota_mb": 12000,
+        "is_public_to_auth_users": false,
+        "apply_assignment_group_weights": true,
+        "calendar": {
+            "ics": "https://umich.instructure.com/feeds/calendars/course_uv10PwkjpHsxDjClAjDVqR0dx6LjRrLLi0ikSbtx.ics"
+        },
+        "time_zone": "America/New_York",
+        "blueprint": false,
+        "enrollments": [
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            },
+            {
+                "type": "student",
+                "role": "StudentEnrollment",
+                "role_id": 14,
+                "user_id": 501847,
+                "enrollment_state": "active",
+                "limit_privileges_to_course_section": false
+            }
+        ],
+        "hide_final_grades": false,
+        "workflow_state": "available",
+        "restrict_enrollments_to_course_dates": false,
+        "overridden_course_visibility": ""
+    }
+]
