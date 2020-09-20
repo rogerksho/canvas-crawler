@@ -10,11 +10,11 @@ class Course:
 CANVAS_TOKEN = "1770~KBb4GdfNpBhVafrsMBlCVnTAfBZQGx4iCZ0QFqv28GPiPnzcFgMW66v8vrLy9rYY"
 USER_ID = "501847"
 
-url = f'https://umich.instructure.com/api/v1/courses/'
+courses_url = f'https://umich.instructure.com/api/v1/courses/'
 payload = {'per_page':100}
 header = {'Authorization': f'Bearer {CANVAS_TOKEN}'}
 
-r = requests.get(url, headers=header, params=payload)
+r = requests.get(courses_url, headers=header, params=payload)
 
 parsed = json.loads(r.text)
 
@@ -32,9 +32,15 @@ for i in data:
             date = datetime.strptime(start_date, "%Y-%m-%dT%H:%M:%SZ")
             if date > datetime(2020, 5, 1, 0, 0, 0):
                 courses.append(Course(i['id'], i['name']))
-                print(i['name'])
         except KeyError:
             pass
 
-for i in courses:
-    print(i.__dict__)
+i = courses[0]
+ass_url = f"https://umich.instructure.com/api/v1/courses/{i.id}/assignments"
+ass_r = requests.get(ass_url, headers=header, params=payload)
+ass_parsed = json.loads(ass_r.text)
+
+print(i.name)
+
+with open('ass_data.json', 'w') as outfile:
+    json.dump(ass_parsed, outfile, indent=4)
