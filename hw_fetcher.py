@@ -7,6 +7,13 @@ class Course:
         self.id = id
         self.name = name
 
+class Task:
+    def __init__(self, id, course_id, name, due_date):
+        self.id = id
+        self.course_id = course_id
+        self.name = name
+        self.due_date = due_date
+
 CANVAS_TOKEN = "1770~KBb4GdfNpBhVafrsMBlCVnTAfBZQGx4iCZ0QFqv28GPiPnzcFgMW66v8vrLy9rYY"
 USER_ID = "501847"
 
@@ -31,16 +38,22 @@ for i in data:
             start_date = i['start_at']
             date = datetime.strptime(start_date, "%Y-%m-%dT%H:%M:%SZ")
             if date > datetime(2020, 5, 1, 0, 0, 0):
-                courses.append(Course(i['id'], i['name']))
+                if i['id'] != 429142:
+                    courses.append(Course(i['id'], i['name']))
         except KeyError:
             pass
 
-i = courses[0]
-ass_url = f"https://umich.instructure.com/api/v1/courses/{i.id}/assignments"
-ass_r = requests.get(ass_url, headers=header, params=payload)
-ass_parsed = json.loads(ass_r.text)
+todo = list()
 
-print(i.name)
+for i in courses:
+    ass_url = f"https://umich.instructure.com/api/v1/courses/{i.id}/assignments"
+    ass_r = requests.get(ass_url, headers=header, params=payload)
+    ass_parsed = json.loads(ass_r.text)
 
-with open('ass_data.json', 'w') as outfile:
-    json.dump(ass_parsed, outfile, indent=4)
+    for j in ass_r.json():
+        due_date = datetime.strptime(j['due_at'], "%Y-%m-%dT%H:%M:%SZ")
+        if due_date > datetime.now():
+            todo.append(Task(j['id'], j['course_id'], j['name'], j['due_at']))
+
+for u in todo:
+    print(u.__dict__)
