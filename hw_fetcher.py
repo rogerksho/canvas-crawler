@@ -58,5 +58,13 @@ for i in courses:
         if due_date > datetime.now():
             todo.append(Task(j['id'], j['course_id'], j['name'], j['due_at'], j['has_submitted_submissions'], 'submitted_at' in j))
 
-for u in todo:
-    print(u.__dict__)
+# sorts assignments by due date
+todo_sorted = (sorted(todo, key=lambda Task: Task.due_date))
+
+i = 1
+
+for u in todo_sorted:
+    print("==============================")
+    print(f"TASK {i}")
+    print('course: ', u.)
+    i += 1
