@@ -56,7 +56,7 @@ for i in courses:
     for j in ass_r.json():
         due_date = datetime.strptime(j['due_at'], "%Y-%m-%dT%H:%M:%SZ")
         if due_date > datetime.now():
-            todo.append(Task(j['id'], j['course_id'], j['name'], j['due_at'], j['has_submitted_submissions'], 'submitted_at' in j))
+            todo.append(Task(j['id'], j['course_id'], j['name'], j['due_at'], j['has_submitted_submissions'], j['submission']['submitted_at'] is not None))
 
 # sorts assignments by due date
 todo_sorted = (sorted(todo, key=lambda Task: Task.due_date))
@@ -66,5 +66,8 @@ i = 1
 for u in todo_sorted:
     print("==============================")
     print(f"TASK {i}")
-    print('course: ', u.)
+    if u.submitted:
+        print("## SUBMITTED ALREADY ##")
+    print("name: ", u.name)
+    print('course: ', u.course_id)
     i += 1
