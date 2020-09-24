@@ -67,7 +67,7 @@ for i in courses:
 todo_sorted = (sorted(todo, key=lambda Task: Task.due_date))
 
 # for sorted todo list, format data and prettyprint (but not actually that pretty xd)
-for u in todo_sorted:
+for i, u in todo_sorted:
     print("==============================")
     print(f"TASK {i}")
     if u.submitted:
@@ -83,4 +83,4 @@ for u in todo_sorted:
         m, s = divmod(s, 60)
         print("time left: ", h, " hours and ", m, " minutes")
     print('course: ', u.course_id)
-    i += 1
+
